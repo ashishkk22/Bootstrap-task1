@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- main div  -->
+    <div class="bg-secondary container-fluid p-8">
+      <!-- card container  -->
+      <div class="card h-100 min-vh-100 p-5 border-0">
+        <!-- heading  -->
+        <div><h1>Users</h1></div>
+        <!-- navbar with search  -->
+        <div>
+          <nav class="navbar navbar-light justify-content-between">
+            <form class="form-inline d-flex flex-row">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-secondary my-2 my-sm-0 mx-1"
+                type="submit"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 17 18"
+                  class=""
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g fill="#bbb" fill-rule="evenodd">
+                    <path
+                      class="_34RNph"
+                      d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203"
+                    ></path>
+                    <path
+                      class="_34RNph"
+                      d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+            </form>
+            <div>
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                  >
+                    Reputation
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-profile"
+                    aria-selected="false"
+                  >
+                    New Users
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-contact-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-contact"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-contact"
+                    aria-selected="false"
+                  >
+                    Voters
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-contact-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-contact"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-contact"
+                    aria-selected="false"
+                  >
+                    Editors
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-contact-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-contact"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-contact"
+                    aria-selected="false"
+                  >
+                    Moderators
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="row d-flex flex-row">
+          <div
+            class="card m-2 bg-light border-0"
+            style="
+              width: 20rem;
+              height: 13rem justify-content-center align-items-center;
+            "
+          >
+            <div
+              class="card-body d-flex flex-row border-0 justify-content-between align-items-center"
+            >
+              <div class="me-2">
+                <img
+                  src="./assets/Profile-pic.png"
+                  alt="profile pic"
+                  class="rounded float-start"
+                  style="height: 8rem"
+                />
+              </div>
+              <div class="ps-2">
+                <div class="lead fw-bold">Lelah Nikols</div>
+                <div>Troy, mi</div>
+                <div class="row d-flex flex-row flex-wrap mt-2">
+                  <div class="col">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Cloth</span
+                    >
+                  </div>
+                  <div class="col">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Stem</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card m-2 bg-light border-0"
+            style="width: 20rem; height: 13rem"
+          >
+            <div
+              class="card-body d-flex flex-row border-0 justify-content-center align-items-center"
+            >
+              <div class="me-2">
+                <img
+                  src="./assets/Profile-pic.png"
+                  alt="profile pic"
+                  class="rounded float-start"
+                  style="height: 8rem"
+                />
+              </div>
+              <div class="ps-2">
+                <div class="lead fw-bold">Jesus Weiss</div>
+                <div>Fort Worth, TX</div>
+                <div class="row d-flex flex-row flex-wrap mt-2">
+                  <div class="col">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Speed</span
+                    >
+                  </div>
+                  <div class="col">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Winter</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card m-2 bg-light border-0"
+            style="width: 20rem; height: 13rem"
+          >
+            <div
+              class="card-body d-flex flex-row border-0 justify-content-center align-items-center"
+            >
+              <div class="me-2">
+                <img
+                  src="./assets/Profile-pic.png"
+                  alt="profile pic"
+                  class="rounded float-start"
+                  style="height: 8rem"
+                />
+              </div>
+              <div class="ps-2">
+                <div class="lead fw-bold">Annie Rice</div>
+                <div>Austin, TX</div>
+                <div class="row d-flex flex-row flex-wrap mt-2">
+                  <div class="col">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Music
+                    </span>
+                  </div>
+                  <div class="col">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Disks</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card m-2 bg-light border-0"
+            style="width: 20rem; height: 13rem"
+          >
+            <div
+              class="card-body d-flex flex-row border-0 justify-content-center align-items-center"
+            >
+              <div class="me-2">
+                <img
+                  src="./assets/Profile-pic.png"
+                  alt="profile pic"
+                  class="rounded float-start"
+                  style="height: 8rem"
+                />
+              </div>
+              <div class="ps-2">
+                <div class="lead fw-bold">Lelah Nikols</div>
+                <div>Troy, mi</div>
+                <div class="row d-flex flex-row flex-wrap mt-2">
+                  <div class="col">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Cloth</span
+                    >
+                  </div>
+                  <div class="col">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Stem</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card m-2 bg-light border-0"
+            style="width: 20rem; height: 13rem"
+          >
+            <div
+              class="card-body d-flex flex-row border-0 justify-content-center align-items-center"
+            >
+              <div class="me-2">
+                <img
+                  src="./assets/Profile-pic.png"
+                  alt="profile pic"
+                  class="rounded float-start"
+                  style="height: 8rem"
+                />
+              </div>
+              <div class="ps-2">
+                <div class="lead fw-bold">Lelah Nikols</div>
+                <div>Troy, mi</div>
+                <div class="row d-flex flex-row flex-wrap mt-2">
+                  <div class="col">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Cloth</span
+                    >
+                  </div>
+                  <div class="col">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Stem</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card m-2 bg-light border-0"
+            style="width: 20rem; height: 13rem"
+          >
+            <div
+              class="card-body d-flex flex-row border-0 justify-content-center align-items-center"
+            >
+              <div class="me-2">
+                <img
+                  src="./assets/Profile-pic.png"
+                  alt="profile pic"
+                  class="rounded float-start"
+                  style="height: 8rem"
+                />
+              </div>
+              <div class="ps-2">
+                <div class="lead fw-bold">Jesus Weiss</div>
+                <div>Fort Worth, TX</div>
+                <div class="row mt-2">
+                  <div class="col mt-2">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Headset</span
+                    >
+                  </div>
+                  <div class="col mt-2">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Stem</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card m-2 bg-light border-0"
+            style="width: 20rem; height: 13rem"
+          >
+            <div
+              class="card-body d-flex flex-row border-0 justify-content-center align-items-center"
+            >
+              <div class="me-2">
+                <img
+                  src="./assets/Profile-pic.png"
+                  alt="profile pic"
+                  class="rounded float-start"
+                  style="height: 8rem"
+                />
+              </div>
+              <div class="ps-2">
+                <div class="lead fw-bold">Lelah Nikols</div>
+                <div>Troy, mi</div>
+                <div class="row d-flex flex-row flex-wrap mt-2">
+                  <div class="col">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Cloth</span
+                    >
+                  </div>
+                  <div class="col">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Stem</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card m-2 bg-light border-0"
+            style="width: 20rem; height: 13rem"
+          >
+            <div
+              class="card-body d-flex flex-row border-0 justify-content-center align-items-center"
+            >
+              <div class="me-2">
+                <img
+                  src="./assets/Profile-pic.png"
+                  alt="profile pic"
+                  class="rounded float-start"
+                  style="height: 8rem"
+                />
+              </div>
+              <div class="ps-2">
+                <div class="lead fw-bold">Lelah Nikols</div>
+                <div>Troy, mi</div>
+                <div class="row d-flex flex-row flex-wrap mt-2">
+                  <div class="col">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Cloth</span
+                    >
+                  </div>
+                  <div class="col">
+                    <span
+                      class="badge rounded-pill bg-light text-primary border border-primary border-1"
+                      >Stem</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
